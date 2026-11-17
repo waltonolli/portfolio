@@ -26,7 +26,7 @@ class ResumeCourses extends HTMLElement {
         const itens = cursos
             .map((curso) => {
                 const link = curso.certificado
-                    ? ` <a href="${curso.certificado}" target="_blank" rel="noopener noreferrer">com certificado</a>`
+                    ? ` <a href="${curso.certificado}" target="_blank" rel="noopener noreferrer">(certificado)</a>`
                     : "";
                 return `<li>${curso.nome} - ${curso.instituicao}${link}</li>`;
             })

@@ -12,15 +12,15 @@ class SocialLinks extends HTMLElement {
         const links = redes
             .map(
                 (rede) => `
-                    <a class="presentation__boxes" href="${rede.url}" target="_blank" rel="noopener noreferrer">
+                    <a class="home__boxes" href="${rede.url}" target="_blank" rel="noopener noreferrer">
                         <img src="${rede.icone}" alt="${rede.nome}">
                     </a>`
             )
             .join("");
 
         this.innerHTML = `
-            <div class="presentation__links">
-                <h2 class="presentation__subtitle">Acesse minhas redes</h2>
+            <div class="home__links">
+                <h2 class="home__subtitle">Acesse minhas redes</h2>
                 <div class="links">${links}
                 </div>
             </div>

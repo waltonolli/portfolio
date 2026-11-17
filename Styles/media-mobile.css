@@ -1,36 +1,31 @@
 @media (max-width: 480px){
+
+    /* HEADER */
     .header{
         padding: 6% 4%;
     }
 
     .header_menu{
-        gap: 20px;
+        justify-content: space-between;
+
     }
 
-    .header_menu_link{
-        font-size: 1rem;
+    /* HOME */
+    .home{
+        padding: 2% 5% 5%;
     }
-
-    .presentation{
-        padding: 2% 6% 10%;
-    }
-
-    .presentation__title{
+    .home__title{
         font-size: 1.1rem;
-        line-height: 1.6;
     }
 
-    .presentation__text {
+    .home__text {
         text-align: justify;
-        line-height: 1.6;
+        line-height: 1.4;
         letter-spacing: -0.02em;
     }
 
-    .presentation__subtitle {
+    .home__subtitle {
         text-align: center;
-    }
-    .presentation__text__about{
-        font-size: 1rem;
     }
 
     .links {
@@ -38,11 +33,17 @@
     }
 
     perfil-image,
-    main.presentation > .presentation__image{
-        width: 80%;
+    main.home > .home__image{
+        width: 60%;
     }
 
-    /* Currículo */
+    /* SOBRE MIM */
+
+    .about__text__about {
+        text-align: justify;
+    }
+
+    /* CV */
     .resume{
         padding: 0 6%;
     }
@@ -71,10 +72,12 @@
 
     .resume__li__subtitle{
         font-size: 0.95rem;
+        text-align: justify;
     }
 
     .resume__li__description{
         font-size: 0.85rem;
+        text-align: justify;
     }
 
 }

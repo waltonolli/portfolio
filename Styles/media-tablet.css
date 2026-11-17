@@ -8,41 +8,46 @@
         gap: 30px;
     }
 
-    .header_menu_link{
-        font-size: 1.2rem;
-    }
-
-    .presentation{
+    .home{
         flex-direction: column-reverse;
         justify-content: flex-end; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
         padding: 2% 8% 8%;
     }
 
-    .presentation__content{
+    .home__content{
         width: auto; /*Pode ser também 100%, da o mesmo resultado*/
     }
 
-    .presentation__title{
+    .home__title{
         font-size: 1.5rem;
     }
 
-    .presentation__text{
+    .home__text{
         font-size: 1rem;
     }
-    .presentation__links{
+    .home__links{
         gap: 22px;
     }
-    .presentation__subtitle{
+    .home__subtitle{
         font-size: 1rem;
 
     }
 
 
     perfil-image,
-    main.presentation > .presentation__image{
+    main.home > .home__image{
         width: 60%;
         max-width: 360px;
         margin-bottom: 8%;
+    }
+
+    .about {
+        flex-direction: column;
+        justify-content: flex-end; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
+        padding: 2% 8% 8%;
+    }
+    .about__content {
+        width: auto;
     }
 
     site-footer p{
