@@ -1,12 +1,6 @@
 @media (max-width: 480px) {
     /* HEADER (menu hamburger) */
-    .header{
-        position: relative;
-        padding: 4%;
-        display: flex;
-        justify-content: flex-end;
-        height: 80px;
-    }
+
 
     .header_toggle{
         display: flex;
@@ -94,12 +88,3 @@
 
 
 
-@media (max-width: 1200px){
-    .header{
-        padding: 5% 0% 2% 0%;
-    }
-
-    .header_menu{
-        justify-content: space-around;
-    }
-}
