@@ -4,41 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/resume.css">
+    <link rel="stylesheet" href="./Styles/media-tablet.css">
+    <link rel="stylesheet" href="./Styles/media-mobile.css">
+    
+
+    <script src="./js/header.js" defer></script>
+    <script src="./js/footer.js" defer></script>
+    <script src="./js/img.js"></script>
     <title>Meu Curriculum</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header_menu">
-            <a class="header_menu_link" href="index.html">Home</a>
-            <a class="header_menu_link" href="about.html">About me</a>
-            <a class="header_menu_link" href="resume.html">Résumé</a>
-        </nav>
-    </header>
-    <main class="presentation">
-        <section class="presentation__content">
-            <h1 class="presentation__title">Currículo</h1>
-            <p class="presentation__text__about">Apresentação e informações principais</p>
-            <h2 class="presentation__title">Experiências</h2>
-            <p class="presentation__text__about">
-                <ul class="presentation__text__about">
-                <li> SIAM Indústria (2021 - 2022)<br>SDR - Representante de Desenvolvimento de Vendas</li>
-                <li> Itália (fev2023 até agora)<br>Estudante DEV</li>
-            </ul></p>
-            <h2 class="presentation__title">Estudos</h2>
-            <div class="presentation__text__about">
-                <p class="presentation__text__about">
-                        <ul class="presentation__text__about">
-                        <li class="presentation__text__about"> Curso HTML e CSS - Alura cursos <a href="https://cursos.alura.com.br/certificate/6246bd2a-c4ab-469b-8a82-191b6ab2ae50?lang=pt_BR">com certificado</a></li>
-                        <li class="presentation__text__about"> Curso Lógica de programação - Alura cursos <a href="https://cursos.alura.com.br/certificate/06a03a74-eb16-4f9b-bb2f-45c821f17300?lang=pt_BR">com certificado</a></li>
-                    </ul>
-                </p> 
+    <site-header></site-header>
+    
+    <main class="resume">
+        <section class="resume__content">
+            <div class="resume__content__div">
+                <h1 class="resume__title">Currículo</h1>
+                <p class="resume__text">Apresentação e informações principais</p>
             </div>
+            <div class="resume__content__div">
+                <h2 class="resume__subtitle">Experiências</h2>
+                <ul class="resume__text">
+                    <li> SIAM Indústria (2021 - 2022)
+                        <ul>
+                            <li>SDR - Representante de Desenvolvimento de Vendas</li>
+                        </ul> 
+                    </li>
+                    <li> Itália (fev2023 até agora)
+                        <ul>
+                            <li>Estudante DEV</li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="resume__content__div">
+                <h2 class="resume__subtitle">Estudos</h2>
+                <div class="resume__text">
+                    <ul class="resume__text">
+                            <li> Curso HTML e CSS - Alura cursos <a href="https://cursos.alura.com.br/certificate/6246bd2a-c4ab-469b-8a82-191b6ab2ae50?lang=pt_BR">com certificado</a></li>
+                            <li> Curso Lógica de programação - Alura cursos <a href="https://cursos.alura.com.br/certificate/06a03a74-eb16-4f9b-bb2f-45c821f17300?lang=pt_BR">com certificado</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            
         </section>
-        <img class="presentation__image" src="./assets/Imagem.png" alt="Foto de uma moça programando">
     </main>
-    <footer class="footer">
-        Desenvolvido por Walkyria Tonolli.
-    </footer>
+
+    <site-footer></site-footer>
 </body>
 </html>

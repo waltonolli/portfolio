@@ -1,0 +1,45 @@
+@media (max-width: 480px){
+    .header{
+        padding: 6% 4%;
+    }
+
+    .header_menu{
+        gap: 20px;
+    }
+
+    .header_menu_link{
+        font-size: 1rem;
+    }
+
+    .presentation{
+        padding: 2% 6% 10%;
+    }
+
+    .presentation__title{
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .presentation__text {
+        text-align: justify;
+        line-height: 1.6;
+        letter-spacing: -0.02em;
+    }
+
+    .presentation__subtitle {
+        text-align: center;
+    }
+    .presentation__text__about{
+        font-size: 1rem;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    perfil-image,
+    main.presentation > .presentation__image{
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,52 @@
+@media (max-width: 1200px){
+    .header{
+        padding: 5% 0% 5% 0%;
+    }
+
+    .header_menu{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .header_menu_link{
+        font-size: 1.2rem;
+    }
+
+    .presentation{
+        flex-direction: column-reverse;
+        justify-content: flex-end; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
+        padding: 2% 8% 8%;
+    }
+
+    .presentation__content{
+        width: auto; /*Pode ser também 100%, da o mesmo resultado*/
+    }
+
+    .presentation__title{
+        font-size: 1.5rem;
+    }
+
+    .presentation__text{
+        font-size: 1rem;
+    }
+    .presentation__links{
+        gap: 22px;
+    }
+    .presentation__subtitle{
+        font-size: 1rem;
+
+    }
+
+
+    perfil-image,
+    main.presentation > .presentation__image{
+        width: 60%;
+        max-width: 360px;
+        margin-bottom: 8%;
+    }
+
+    site-footer p{
+        padding: 2%;
+        
+    }
+}
