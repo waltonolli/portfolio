@@ -33,7 +33,7 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
 }
@@ -46,23 +46,25 @@ a:hover {
     color: var(--cor-hover);
 }
 
-li {
-    list-style-position: inside;
-    font-weight: 500;
-}
-
-li li {
-    font-weight: 400;
+ul {
+    padding-top: 10px;
 }
 
 ul ul {
     list-style-type: none;
-    padding-left: 1.6rem;
+    padding-left: 3rem;
+    padding-top: 10px;
+}
+
+li {
+    list-style-position: inside;
+    font-weight: 600;
 }
 
 main {
     flex: 1;
 }
+
 site-header,
 site-footer {
     display: block;
@@ -103,19 +105,19 @@ site-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 30px;
+    padding-top: 5px;
 }
 .presentation__subtitle{
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 1.2rem;
-    padding-top: 40px;
+    padding: 20px 0;
 }
 
 .presentation__boxes{
     display: flex;
     text-decoration: none;
-    padding: 8px;
 }
 
 .presentation__boxes img {
@@ -149,10 +151,10 @@ main.presentation > .presentation__image{
 
 site-footer{
     padding: 24px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-hover);
     text-align: center;
     font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
     font-weight: 400;
 }
 

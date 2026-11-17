@@ -2,19 +2,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .resume__content{
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.resume__title{
-    font-size: 1.4rem;
-    font-family: var(--fonte-secundaria);
+    padding: 60px 0;
 }
 
 .resume__title__highlight{
@@ -33,3 +30,22 @@
     flex-direction: column;
     gap: 15px;
 }
+
+.resume__ul__operation {
+    padding-left: 1.6rem;
+}
+.resume__li__subtitle {
+    font-weight: 400;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resume__li__description {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
