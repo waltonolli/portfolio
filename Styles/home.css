@@ -9,7 +9,7 @@
 }
 
 .home__content{
-    width: 60%; /*não pode ser zerado, precisa existir sempre um valor*/
+    width: 75%; /*não pode ser zerado, precisa existir sempre um valor*/
     display: flex;
     flex-direction: column;
     gap: 30px;
