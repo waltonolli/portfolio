@@ -48,16 +48,15 @@ a:hover {
 
 ul {
     padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 ul ul {
     list-style-type: none;
-    padding-left: 3rem;
-    padding-top: 10px;
 }
 
 li {
-    list-style-position: inside;
+    list-style-type: none;
     font-weight: 600;
 }
 
@@ -72,7 +71,7 @@ site-footer {
 
 .header{
     padding: 2% 0% 0% 0%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -92,12 +91,12 @@ site-footer {
 }
 
 .header_menu_link.ativo { 
-    color: var(--cor-hover);
-    border-bottom: 2px solid currentColor;
+    border-bottom: 2px solid var(--cor-hover);
 }
 
 .header_menu_link:hover {
-    color: var(--cor-hover);
+    border-bottom: 2px solid var(--cor-hover);
+    color: var(--cor-terciaria);
 }
 
 

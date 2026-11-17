@@ -1,6 +1,6 @@
 const cursos = [
     {
-        nome: "Graduação Tecnologia em Análise e Desenvolvimento de Sistemas",
+        nome: "Graduação Tec. em Análise e Desenvolv. de Sistemas",
         instituicao: "Senac EAD",
         certificado: "",
     },

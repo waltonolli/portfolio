@@ -1,6 +1,6 @@
 const experiencias = [
     {
-        empresa: "SIAM Indústria de Automação e Monitoramento Ltda",
+        empresa: "SIAM Indústria",
         cargos: [
             {
                 titulo: "Serviços Administrativos (Remoto)",
@@ -27,12 +27,13 @@ const experiencias = [
                     "Implementação e integração do processo financeiro no sistema ERP da empresa.",
                     "Redução de processos burocráticos e garantia da integridade dos dados.",
                     "Implementação e Integração do controle de estoque no sistema ERP.",
-                    "Assistência Técnica às áreas administrativa; Automatização no processo de faturamento.",
-                    "Controle de fluxos de trabalho e aprimoramento do setor de faturamento, financeiro e compras.",
+                    "Automatização no processo de faturamento.",
+                    "Assistência Técnica às áreas administrativa",
+                    "Controle de fluxos de trabalho, fluxo de caixa, fechamento contábil.",
+                    "Aprimoramento do setor de faturamento, financeiro e compras.",
                     "Elaboração e atualização de normas e procedimentos.",
-                    "Compras - contato com fornecedores, cotações e compras de matéria-prima e insumos.",
-                    "Faturamento - entrada e saída de Notas Fiscais nacionais e de importação.",
-                    "Controle de estoque (entradas e saídas, garantia de recursos para produção e organização).",
+                    "Compras e faturamento, entrada e saída de NFs nacionais e de importação.",
+                    "Controle e manutenção de estoque.",
                     "Controle financeiro - cobranças, recebimentos, pagamentos, conciliação bancária.",
                 ],
             },
@@ -51,7 +52,8 @@ class ResumeExperiences extends HTMLElement {
                             ${experiencia.cargos
                                 .map(
                                     (cargo) => `
-                                        <li class="resume__li__subtitle">${cargo.titulo} (${cargo.periodo})
+                                        <li class="resume__li__subtitle">${cargo.titulo}</li>
+                                        <li class="resume__li__subtitle">(${cargo.periodo})
                                             <ul class="resume__ul__operation">
                                                 ${cargo.atividades.map((atividade) => `<li class="resume__li__description">${atividade}</li>`).join("")}
                                             </ul>
