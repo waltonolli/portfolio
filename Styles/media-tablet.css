@@ -47,6 +47,31 @@
 
     site-footer p{
         padding: 2%;
-        
+
+    }
+
+    /* Currículo */
+    .resume{
+        padding: 0 8%;
+    }
+
+    .resume__content{
+        width: 100%;
+        gap: 32px;
+        padding: 40px 0;
+    }
+
+    .resume__items{
+        flex-direction: column; /*experiências e estudos empilhados*/
+        gap: 40px;
+    }
+
+    .resume__text{
+        font-size: 1.1rem;
+    }
+
+    .resume__li__description{
+        font-size: 0.85rem;
+        line-height: 1.5;
     }
 }

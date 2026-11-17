@@ -42,4 +42,39 @@
         width: 80%;
     }
 
+    /* Currículo */
+    .resume{
+        padding: 0 6%;
+    }
+
+    .resume__content{
+        gap: 24px;
+        padding: 24px 0 40px;
+    }
+
+    .resume__title{
+        font-size: 1.6rem;
+    }
+
+    .resume__subtitle{
+        font-size: 1.25rem;
+    }
+
+    .resume__items{
+        gap: 32px;
+    }
+
+    .resume__text{
+        font-size: 1rem;
+        overflow-wrap: anywhere; /*evita textos longos estourando a tela*/
+    }
+
+    .resume__li__subtitle{
+        font-size: 0.95rem;
+    }
+
+    .resume__li__description{
+        font-size: 0.85rem;
+    }
+
 }
