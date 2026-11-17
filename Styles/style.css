@@ -130,10 +130,27 @@ site-footer{
     site-footer p{
         padding: 2%;
     }
+
+    .header{
+        padding: 5% 0% 2% 0%;
+    }
+
+    .header_menu{
+        justify-content: space-around;
+    }
+    
 }
 
 
 @media (max-width: 480px){
+
+    .header{
+        position: relative;
+        padding: 4%;
+        display: flex;
+        justify-content: flex-end;
+        height: 80px;
+    }
 
     body {
         min-height: 100vh;
