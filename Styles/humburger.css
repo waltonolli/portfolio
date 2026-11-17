@@ -1,8 +1,4 @@
-@media (max-width: 480px){
-    body {
-        min-height: 100vh;
-    }
-
+@media (max-width: 480px) {
     /* HEADER (menu hamburger) */
     .header{
         position: relative;
@@ -94,69 +90,16 @@
         background-color: var(--cor-hover);
         color: #ffffff;
     }
+}
 
-    /* HOME */
-    .home{
-        padding: 7%;
+
+
+@media (max-width: 1200px){
+    .header{
+        padding: 5% 0% 2% 0%;
     }
 
-
-    .home__text {
-        text-align: justify;
-        line-height: 1.4;
-        letter-spacing: -0.02em;
+    .header_menu{
+        justify-content: space-around;
     }
-
-    .home__subtitle {
-        text-align: center;
-    }
-
-    .links {
-        justify-content: center;
-    }
-
-    perfil-image{
-        width: 60%;
-    }
-
-    /* SOBRE MIM */
-
-    .about {
-        padding: 7%;
-    }
-    .about__text__about {
-        text-align: justify;
-    }
-
-    .about__image {
-    max-width: 100%;
-    }
-
-    /* CV */
-    .resume{
-        padding: 7%;
-    }
-
-    .resume__content{
-        gap: 24px;
-        padding: 24px 0 40px;
-    }
-
-    .resume__title{
-        font-size: 1.6rem;
-    }
-
-    .resume__subtitle{
-        font-size: 1.25rem;
-    }
-
-    .resume__items{
-        gap: 32px;
-    }
-
-    .resume__text{
-        font-size: 1rem;
-        overflow-wrap: anywhere; /*evita textos longos estourando a tela*/
-    }
-
 }

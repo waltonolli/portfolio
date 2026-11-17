@@ -43,3 +43,60 @@
     display: flex;
     gap: 50px;
 }
+
+@media (max-width: 1200px){
+
+    .resume{
+        padding: 0 8%;
+        align-items: start;
+        padding: 2% 8% 8%;
+    }
+
+    .resume__content{
+        width: auto;
+        padding: 0;
+    }
+
+    .resume__items{
+        flex-direction: column; /*experiências e estudos empilhados*/
+        gap: 40px;
+    }
+
+    .resume__text{
+        font-size: 1.1rem;
+    }
+
+    .resume__li__description{
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px){
+    
+    .resume{
+        padding: 7%;
+    }
+
+    .resume__content{
+        gap: 24px;
+        padding: 24px 0 40px;
+    }
+
+    .resume__title{
+        font-size: 1.6rem;
+    }
+
+    .resume__subtitle{
+        font-size: 1.25rem;
+    }
+
+    .resume__items{
+        gap: 32px;
+    }
+
+    .resume__text{
+        font-size: 1rem;
+        overflow-wrap: anywhere; /*evita textos longos estourando a tela*/
+    }
+}

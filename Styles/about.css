@@ -26,3 +26,33 @@
 .about__image {
     max-width: 20%;
 }
+
+
+
+@media (max-width: 1200px){
+
+    .about {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2% 8% 8%;
+    }
+    .about__content {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 480px){
+
+    .about {
+        padding: 7%;
+    }
+    .about__text__about {
+        text-align: justify;
+    }
+
+    .about__image {
+    max-width: 100%;
+    }
+}

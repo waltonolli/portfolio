@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Logotipo Walkyria: monograma W entre colchetes de código">
-  <circle cx="200" cy="200" r="180" fill="#1D3413" stroke="#F5B934" stroke-width="8"/>
+  <circle cx="200" cy="200" r="180" fill="#352440" stroke="#F5B934" stroke-width="8"/>
   <circle cx="200" cy="200" r="158" fill="none" stroke="#F6F6F6" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.6"/>
   <!-- colchetes de código -->
   <polyline points="112,150 62,200 112,250" fill="none" stroke="#F6F6F6" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
