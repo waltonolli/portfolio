@@ -66,6 +66,7 @@
         transform: translateY(0);
         background-color: var(--cor-terciaria);
         height: 300px;
+        padding-top: 80px;
     }
 
     /* Links do menu mobile: sem sublinhado; ativo com fundo verde e texto branco */
