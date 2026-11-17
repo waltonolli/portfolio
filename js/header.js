@@ -20,6 +20,8 @@ class SiteHeader extends HTMLElement {
         this.querySelectorAll("nav a").forEach((a) => {
             if (a.getAttribute("href") === atual) a.classList.add("ativo");
         });
+
+        initMenuHamburger(this);
     }
 }
 
