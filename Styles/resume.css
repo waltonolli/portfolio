@@ -1,10 +1,11 @@
 .resume{
+    padding: 2% 0%;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    gap: 20px 10px; /*espaço entre linhas e colunas*/
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .resume__content{
@@ -12,10 +13,6 @@
     flex-direction: column;
     gap: 40px;
     padding: 60px 0;
-}
-
-.resume__title__highlight{
-    color: var(--cor-terciaria) ;
 }
 
 .resume__text{
@@ -31,11 +28,7 @@
     gap: 15px;
 }
 
-/* .resume__ul__operation {
-    padding-left: 1.6rem;
-} */
 .resume__li__subtitle {
-    font-weight: 400;
     font-weight: 500;
     font-size: 16px;
 }
@@ -49,5 +42,4 @@
 .resume__items {
     display: flex;
     gap: 50px;
-    
 }

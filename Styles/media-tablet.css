@@ -1,11 +1,14 @@
 @media (max-width: 1200px){
+
+    h1 {
+        font-size: 1.2rem ;
+    }
     .header{
-        padding: 5% 0% 5% 0%;
+        padding: 5% 0% 2% 0%;
     }
 
     .header_menu{
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-around;
     }
 
     .home{
@@ -18,9 +21,7 @@
         width: auto; /*Pode ser também 100%, da o mesmo resultado*/
     }
 
-    .home__title{
-        font-size: 1.5rem;
-    }
+  
 
     .home__text{
         font-size: 1rem;
@@ -33,9 +34,7 @@
 
     }
 
-
-    perfil-image,
-    main.home > .home__image{
+    perfil-image{
         width: 60%;
         max-width: 360px;
         margin-bottom: 8%;
@@ -43,7 +42,7 @@
 
     .about {
         flex-direction: column;
-        justify-content: flex-end; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
+        justify-content: flex-start;
         padding: 2% 8% 8%;
     }
     .about__content {
@@ -52,18 +51,18 @@
 
     site-footer p{
         padding: 2%;
-
     }
 
     /* Currículo */
     .resume{
         padding: 0 8%;
+        align-items: start;
+        padding: 2% 8% 8%;
     }
 
     .resume__content{
-        width: 100%;
-        gap: 32px;
-        padding: 40px 0;
+        width: auto;
+        padding: 0;
     }
 
     .resume__items{

@@ -16,7 +16,6 @@
 }
 
 .home__title{
-    font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -30,8 +29,4 @@
 
 .home_text_span{
     color: var(--cor-terciaria);
-}
-
-.home__boxes:hover {
-    background-color: initial;
 }

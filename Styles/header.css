@@ -1,29 +1,35 @@
 .header{
-    padding: 2% 0% 0% 0%;
-    max-width: 1280px;
-    margin: auto;
+    background-color: var(--cor-terciaria);
+    height: 80px;
 }
 
 .header_menu{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     gap: 50px;
+    height: 100%;
 }
 
 .header_menu_link{
-    font-family: var(--fonte-primaria);
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
-
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;     /* centraliza o texto na vertical */
+    justify-content: center; /* centraliza o texto na horizontal */
 }
 
 .header_menu_link.ativo { 
-    border-bottom: 2px solid var(--cor-hover);
+    background-color: var(--cor-hover);
+    color: var(--cor-terciaria);
+    padding: 8px 0;
 }
 
 .header_menu_link:hover {
-    border-bottom: 2px solid var(--cor-hover);
-    color: var(--cor-terciaria);
+    color: var(--cor-hover);
+}
+
+/* Botão hamburger: escondido no desktop/tablet, aparece no mobile */
+.header_toggle{
+    display: none;
 }
