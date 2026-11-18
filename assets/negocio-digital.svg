@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 410" role="img" aria-label="Janela de site com toldo de loja, gráfico crescente e selo de qualidade">
+  <rect x="30" y="50" width="400" height="300" rx="18" fill="#b9aac2" stroke="#5C3D7A" stroke-width="4"/>
+  <path d="M30 68 a18 18 0 0 1 18 -18 h364 a18 18 0 0 1 18 18 v22 h-400 Z" fill="#16263F"/>
+  <circle cx="56" cy="70" r="6" fill="#5C3D7A"/><circle cx="76" cy="70" r="6" fill="#F4F6FA" opacity=".7"/><circle cx="96" cy="70" r="6" fill="#F4F6FA" opacity=".35"/>
+  <rect x="124" y="60" width="250" height="20" rx="10" fill="#190c21"/>
+  <rect x="136" y="67" width="90" height="6" rx="3" fill="#5C3D7A" opacity=".8"/>
+  <rect x="59.5" y="112" width="51" height="30" fill="#5C3D7A"/><path d="M59.5 140 A25.5 25.5 0 0 0 110.5 140 Z" fill="#5C3D7A"/><rect x="109.5" y="112" width="51" height="30" fill="#F4F6FA"/><path d="M109.5 140 A25.5 25.5 0 0 0 160.5 140 Z" fill="#F4F6FA"/><rect x="159.5" y="112" width="51" height="30" fill="#5C3D7A"/><path d="M159.5 140 A25.5 25.5 0 0 0 210.5 140 Z" fill="#5C3D7A"/><rect x="209.5" y="112" width="51" height="30" fill="#F4F6FA"/><path d="M209.5 140 A25.5 25.5 0 0 0 260.5 140 Z" fill="#F4F6FA"/><rect x="259.5" y="112" width="51" height="30" fill="#5C3D7A"/><path d="M259.5 140 A25.5 25.5 0 0 0 310.5 140 Z" fill="#5C3D7A"/><rect x="309.5" y="112" width="51" height="30" fill="#F4F6FA"/><path d="M309.5 140 A25.5 25.5 0 0 0 360.5 140 Z" fill="#F4F6FA"/><rect x="359.5" y="112" width="51" height="30" fill="#5C3D7A"/><path d="M359.5 140 A25.5 25.5 0 0 0 410.5 140 Z" fill="#5C3D7A"/>
+  <line x1="74" y1="330" x2="316" y2="330" stroke="#F4F6FA" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  <rect x="88" y="296" width="28" height="34" rx="5" fill="#5C3D7A"/><rect x="134" y="276" width="28" height="54" rx="5" fill="#5C3D7A"/><rect x="180" y="254" width="28" height="76" rx="5" fill="#5C3D7A"/><rect x="226" y="230" width="28" height="100" rx="5" fill="#5C3D7A"/><rect x="272" y="206" width="28" height="124" rx="5" fill="#F4F6FA"/>
+  <polyline points="102,278 148,258 194,236 240,212 286,188" fill="none" stroke="#F4F6FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 9"/>
+  <circle cx="102" cy="278" r="6" fill="#190c21" stroke="#F4F6FA" stroke-width="3"/><circle cx="148" cy="258" r="6" fill="#190c21" stroke="#F4F6FA" stroke-width="3"/><circle cx="194" cy="236" r="6" fill="#190c21" stroke="#F4F6FA" stroke-width="3"/><circle cx="240" cy="212" r="6" fill="#190c21" stroke="#F4F6FA" stroke-width="3"/><circle cx="286" cy="188" r="6" fill="#190c21" stroke="#F4F6FA" stroke-width="3"/>
+  <rect x="332" y="186" width="76" height="12" rx="6" fill="#5C3D7A"/>
+  <rect x="332" y="210" width="56" height="10" rx="5" fill="#F4F6FA" opacity=".55"/>
+  <rect x="332" y="232" width="68" height="10" rx="5" fill="#F4F6FA" opacity=".3"/>
+  <rect x="332" y="254" width="40" height="10" rx="5" fill="#F4F6FA" opacity=".3"/>
+  <polygon points="405.0,281.0 414.0,289.9 425.7,285.1 430.6,296.8 443.2,296.8 443.2,309.4 454.9,314.3 450.1,326.0 459.0,335.0 450.1,344.0 454.9,355.7 443.2,360.6 443.2,373.2 430.6,373.2 425.7,384.9 414.0,380.1 405.0,389.0 396.0,380.1 384.3,384.9 379.4,373.2 366.8,373.2 366.8,360.6 355.1,355.7 359.9,344.0 351.0,335.0 359.9,326.0 355.1,314.3 366.8,309.4 366.8,296.8 379.4,296.8 384.3,285.1 396.0,289.9" fill="#5C3D7A" stroke="#190c21" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="405" cy="335" r="34" fill="#190c21"/>
+  <polyline points="389,336 401,349 422,323" fill="none" stroke="#F4F6FA" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M446 28 L451 42 L465 47 L451 52 L446 66 L441 52 L427 47 L441 42 Z" fill="#f7cd4f"/>
+  <path d="M24 20 L27 28 L35 31 L27 34 L24 42 L21 34 L13 31 L21 28 Z" fill="#f7cd4f" opacity=".8"/>
+</svg>

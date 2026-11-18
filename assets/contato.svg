@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="474" height="380" viewBox="657 105 474 380" role="img" aria-labelledby="titulo" lang="pt-BR">
+  <title id="titulo">Janela de código e envelope</title>
+  <g fill="none" stroke="#78c9bb" stroke-width="2" opacity=".65">
+    <path d="M720 280h-45v141h120v46h78" stroke-dasharray="5 8"/>
+    <path d="M1009 161v-38h104v144h-41" stroke-dasharray="5 8"/>
+    <circle cx="873" cy="467" r="5" fill="#73efcb"/>
+    <circle cx="1113" cy="123" r="5" fill="#73efcb"/>
+  </g>
+  <g>
+    <rect x="733" y="174" width="346" height="233" rx="22" fill="#0a1423" opacity=".65"/>
+    <rect x="720" y="161" width="346" height="233" rx="22" fill="#14263c" stroke="#486b80" stroke-width="2"/>
+    <path d="M721 211h344" stroke="#486b80" stroke-width="2"/>
+    <circle cx="748" cy="186" r="4" fill="#ff9c9f"/>
+    <circle cx="765" cy="186" r="4" fill="#ffd189"/>
+    <circle cx="782" cy="186" r="4" fill="#73efcb"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+      <path d="m793 247-21 19 21 19m48-38 21 19-21 19m-18-43-12 49" stroke="#73efcb"/>
+      <path d="M769 319h65m-65 22h107m-107 22h38" stroke="#6c93aa"/>
+      <path d="M850 319h43m-70 44h56" stroke="#b5a1f5"/>
+    </g>
+    <rect x="926" y="328" width="158" height="107" rx="22" fill="#091622" opacity=".65"/>
+    <rect x="916" y="318" width="158" height="107" rx="22" fill="#73efcb"/>
+    <g fill="none" stroke="#16394a" stroke-width="4" stroke-linejoin="round">
+      <rect x="954" y="345" width="82" height="53" rx="8"/>
+      <path d="m956 349 39 29 39-29"/>
+    </g>
+  </g>
+</svg>

@@ -23,6 +23,11 @@
     font-size: 1.25rem;
 }
 
+.about_text_span{
+    color: var(--cor-terciaria);
+    font-weight: 500;
+}
+
 .about__image {
     max-width: 20%;
 }
@@ -54,5 +59,9 @@
 
     .about__image {
     max-width: 100%;
+    }
+
+    .about__text__about{
+        font-size: 1rem;
     }
 }
