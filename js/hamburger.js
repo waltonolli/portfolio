@@ -1,7 +1,7 @@
 // Menu hamburger (mobile) — chamado pelo <site-header> depois de renderizar o HTML
 function initMenuHamburger(root) {
     const header = root.querySelector(".header");
-    const toggle = root.querySelector(".header_toggle");
+    const toggle = root.querySelector(".header__toggle");
     if (!header || !toggle) return;
 
     const setOpen = (open) => {
@@ -15,7 +15,7 @@ function initMenuHamburger(root) {
     });
 
     // Fecha ao clicar em um link, ao apertar Esc ou ao clicar fora
-    root.querySelectorAll(".header_menu_link").forEach((a) => {
+    root.querySelectorAll(".header__menu__link").forEach((a) => {
         a.addEventListener("click", () => setOpen(false));
     });
 
