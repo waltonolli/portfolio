@@ -2,7 +2,7 @@
     padding: 2% 0%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px; /*espaço entre linhas e colunas*/
     max-width: 1280px;
     margin: auto;
@@ -13,7 +13,7 @@
 }
 
 .home__content{
-    width: 75%; /*não pode ser zerado, precisa existir sempre um valor*/
+    width: 60%; /*não pode ser zerado, precisa existir sempre um valor*/
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -73,12 +73,12 @@ perfil-image {
 
     .home{
         flex-direction: column-reverse;
-        justify-content: flex-end; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
+        justify-content: center; /*em column-reverse, flex-end = topo; evita espaço vazio entre foto e texto*/
         padding: 2% 8% 8%;
     }
 
     .home__content{
-        width: auto; /*Pode ser também 100%, da o mesmo resultado*/
+        width: 85%; /*Pode ser também 100%, da o mesmo resultado*/
     }
 
     .home__links{
@@ -107,6 +107,9 @@ perfil-image {
         padding: 7%;
     }
 
+    .home__content{
+        width: auto;
+    }
     .home__text {
         text-align: justify;
         line-height: 1.4;

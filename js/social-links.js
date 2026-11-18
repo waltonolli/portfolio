@@ -1,10 +1,10 @@
 const redes = [
-    { nome: "Instagram", url: "https://instagram.com/wal.tonolli", icone: "./assets/instagram.svg" },
     { nome: "GitHub", url: "https://github.com/waltonolli", icone: "./assets/github-original.svg" },
     { nome: "LinkedIn", url: "https://www.linkedin.com/in/waltonolli", icone: "./assets/linkedin-original.svg" },
-    { nome: "Medium", url: "https://medium.com/@waltonolli", icone: "./assets/medium-original.svg" },
-    { nome: "Twitch", url: "https://www.twitch.tv", icone: "./assets/twitch-original.svg" },
+    { nome: "Medium", url: "https://medium.com/@waltonolli", icone: "./assets/medium-original.svg" }, 
+    { nome: "Instagram", url: "https://instagram.com/wal.tonolli", icone: "./assets/instagram.svg" },
     { nome: "X", url: "https://x.com", icone: "./assets/x.svg" },
+    { nome: "Twitch", url: "https://www.twitch.tv", icone: "./assets/twitch-original.svg" },
 ];
 
 class SocialLinks extends HTMLElement {

@@ -28,6 +28,16 @@ main {
     flex: 1;
 }
 
+h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
+
+h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+} 
+
 img{
     max-width: 100%;
     height: auto;
@@ -35,7 +45,6 @@ img{
 }
 a {
     text-decoration: none;
-    width: 100%;
     text-align: center;
 }
 
@@ -53,44 +62,65 @@ li {
     font-weight: 600;
 }
 
+/* HEADER */
 .header{
     background-color: var(--cor-terciaria);
     height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 0 24px;
 }
 
-.header_menu{
+/* Logo: altura fixa, largura proporcional; nunca encolhe dentro do flex */
+.header__logo{
+    height: 44px;
+    width: auto;
+    max-width: none;
+    flex-shrink: 0;
+}
+
+.header p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    letter-spacing: 0.1em;
+    width: 30%;
+    text-align: center;
+}
+
+.header__menu{
     display: flex;
+    flex: 1;
     gap: 50px;
     height: 100%;
+    justify-content: space-evenly; /* centraliza o texto na horizontal */
 }
 
-.header_menu_link{
+.header__menu__link{
     font-size: 1.2rem;
     font-weight: 600;
     color: white;
-    height: 100%;
     display: flex;
     align-items: center;     /* centraliza o texto na vertical */
-    justify-content: center; /* centraliza o texto na horizontal */
+
 }
 
-.header_menu_link.ativo { 
-    background-color: var(--cor-hover);
-    color: var(--cor-terciaria);
-    padding: 8px 0;
-}
-
-.header_menu_link:hover {
+.header__menu__link.ativo { 
     color: var(--cor-hover);
 }
 
-.header_menu_link.ativo:hover {
+.header__menu__link:hover {
+    color: var(--cor-hover-ativo);
+}
+
+.header__menu__link.ativo:hover {
     color: var(--cor-hover-ativo);
 }
 
 
 /* Botão hamburger: escondido no desktop/tablet, aparece no mobile */
-.header_toggle{
+.header__toggle{
     display: none;
 }
 
@@ -132,11 +162,16 @@ site-footer{
     }
 
     .header{
-        padding: 5% 0% 2% 0%;
+        padding: 0 16px;
     }
 
-    .header_menu{
+    .header__logo{
+        height: 40px;
+    }
+
+    .header__menu{
         justify-content: space-around;
+        gap: 16px;
     }
     
 }
@@ -146,12 +181,21 @@ site-footer{
 
     .header{
         position: relative;
-        padding: 4%;
-        display: flex;
-        justify-content: flex-end;
+        padding: 0 16px;
+        justify-content: space-between;
         height: 80px;
     }
 
+    /* Fica acima do menu aberto, assim como o botão X */
+    .header__logo{
+        height: 48px;
+        position: relative;
+        z-index: 20;
+    }
+
+    .header p {
+        width: auto;
+    }
     body {
         min-height: 100vh;
     }
