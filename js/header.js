@@ -2,8 +2,10 @@ class SiteHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header class="header">
+                <div class="header__div__logo">
                 <a href="index.html"><img  class="header__logo" src="./assets/logo.svg" alt="logo W"></a>
                 <p>Portfólio de Walkyria</p>
+                </div>
                 <button class="header__toggle" type="button"
                     aria-label="Abrir menu" aria-expanded="false" aria-controls="header-menu">
                     <span class="header__toggle__bar"></span>
