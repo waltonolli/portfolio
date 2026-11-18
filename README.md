@@ -35,7 +35,7 @@ HTML5 · CSS3 · JavaScript
 
 ## Como visualizar
 
-Através deste [link](https://waltonolli.github.io/portfolio/)
+Acessando o [link](https://waltonolli.github.io/portfolio/)
 
 ## Autora
 
